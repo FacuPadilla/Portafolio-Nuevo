@@ -53,10 +53,7 @@ export const AboutMe = () => {
           >
             <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
           </svg>
-          <a
-            href="../../public/FACUNDOPADILLACV.pdf"
-            download="Facundo Padilla"
-          >
+          <a href="FACUNDOPADILLACV.pdf" download="Facundo Padilla">
             Download CV in Spanish
           </a>
         </button>
@@ -68,10 +65,7 @@ export const AboutMe = () => {
           >
             <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
           </svg>
-          <a
-            href="../../public/FACUNDOPADILLACV.pdf"
-            download="Facundo Padilla"
-          >
+          <a href="FACUNDOPADILLACV.pdf" download="Facundo Padilla">
             Download CV in English
           </a>
         </button>

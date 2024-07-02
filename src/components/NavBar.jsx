@@ -59,7 +59,7 @@ export const NavBar = () => {
           )}
         </button>
         {openMenu && (
-          <div className="text-white text-center w-full">
+          <div className="text-white text-center w-full md:hidden">
             <ul className="">
               <li className="mt-2" onClick={() => scrollToSection("about")}>
                 About me
