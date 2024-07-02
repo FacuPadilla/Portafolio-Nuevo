@@ -32,11 +32,7 @@ export const Contact = () => {
           <div className="md:w-[50%] grid md:grid-cols-2 gap-4 items-center justify-center">
             <div className="bg-slate-700 h-32 w-64 md:w-auto flex items-center justify-center relative rounded-lg border-[1px] opacity-85 hover:opacity-100 hover:scale-105 transition-all">
               <a href="" className="flex items-center justify-center">
-                <img
-                  src="../../public/github.svg"
-                  alt=""
-                  className="w-20 h-20"
-                />
+                <img src="github.svg" alt="" className="w-20 h-20" />
               </a>
               <p className="absolute -bottom-1 -right-1 bg-white text-black rounded-lg p-1 text-sm">
                 GitHub
@@ -55,7 +51,7 @@ export const Contact = () => {
                 onMouseLeave={handlegithubHover}
               >
                 <img
-                  src="../../public/new-window-svgrepo-com (1).svg"
+                  src="new-window-svgrepo-com (1).svg"
                   alt=""
                   className="w-5 h-5 "
                 />
@@ -70,11 +66,7 @@ export const Contact = () => {
             </div>
             <div className="bg-slate-700 h-32 flex relative items-center justify-center rounded-lg border-[1px] opacity-85 hover:opacity-100 hover:scale-105 transition-all">
               <a href="" className="flex items-center justify-center">
-                <img
-                  src="../../public/gmail-svgrepo-com.svg"
-                  alt=""
-                  className="w-20 h-20"
-                />
+                <img src="gmail-svgrepo-com.svg" alt="" className="w-20 h-20" />
               </a>
               <p className="absolute -bottom-1 -right-1 bg-white text-black rounded-lg p-1 text-sm">
                 Gmail
@@ -93,11 +85,7 @@ export const Contact = () => {
                   onMouseEnter={handlegmailHover}
                   onMouseLeave={handlegmailHover}
                 >
-                  <img
-                    src="../../public/copy-svgrepo-com.svg"
-                    alt=""
-                    className="w-5 h-5 "
-                  />
+                  <img src="copy-svgrepo-com.svg" alt="" className="w-5 h-5 " />
                   <p
                     className={`transition-opacity duration-500 ease-in-out ${
                       gmailhover ? "opacity-100" : "opacity-0"
@@ -111,7 +99,7 @@ export const Contact = () => {
             <div className="bg-slate-700 relative h-32 flex items-center justify-center rounded-lg border-[1px] opacity-85 hover:opacity-100 hover:scale-105 transition-all">
               <a href="" className="flex items-center justify-center">
                 <img
-                  src="../../public/linkedin-svgrepo-com.svg"
+                  src="linkedin-svgrepo-com.svg"
                   alt=""
                   className="w-20 h-20"
                 />
@@ -133,7 +121,7 @@ export const Contact = () => {
                 onMouseLeave={handlelinkedinHover}
               >
                 <img
-                  src="../../public/new-window-svgrepo-com (1).svg"
+                  src="new-window-svgrepo-com (1).svg"
                   alt=""
                   className="w-5 h-5 "
                 />
@@ -149,7 +137,7 @@ export const Contact = () => {
             <div className="bg-slate-700 relative h-32 flex items-center justify-center rounded-lg border-[1px] opacity-85 hover:opacity-100 hover:scale-105 transition-all">
               <a href="" className="flex items-center justify-center">
                 <img
-                  src="../../public/phone-calling-svgrepo-com.svg"
+                  src="phone-calling-svgrepo-com.svg"
                   alt=""
                   className="w-20 h-20"
                 />
@@ -171,11 +159,7 @@ export const Contact = () => {
                   onMouseLeave={handlePhoneHover}
                   onClick={() => toast.success("Successfully Copied!")}
                 >
-                  <img
-                    src="../../public/copy-svgrepo-com.svg"
-                    alt=""
-                    className="w-5 h-5 "
-                  />
+                  <img src="copy-svgrepo-com.svg" alt="" className="w-5 h-5 " />
                   <p
                     className={`transition-opacity duration-500 ease-in-out ${
                       phonehover ? "opacity-100" : "opacity-0"

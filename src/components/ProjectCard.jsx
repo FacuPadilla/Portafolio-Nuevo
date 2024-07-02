@@ -38,11 +38,11 @@ export const ProjectCard = ({
         </div>
         <div className="w-full border-t-[1px] mt-2 flex items-center justify-center gap-4 p-2">
           <a href={git}>
-            <img src="../../public/github.svg" alt="" className="w-10 h-10" />
+            <img src="github.svg" alt="" className="w-10 h-10" />
           </a>
           <a href={web}>
             <img
-              src="../../public/new-window-svgrepo-com (1).svg"
+              src="new-window-svgrepo-com (1).svg"
               className="w-5 h-5"
               alt=""
             />

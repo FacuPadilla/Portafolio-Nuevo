@@ -16,9 +16,9 @@ export const Projects = () => {
           src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/Screenshot%202024-05-07%20101528.png"
           title="ConnectInk"
           info="The app allows tattoo artists to showcase their art, availability, and services, while clients can explore profiles, appreciate artwork, and easily and securely book appointments."
-          ico1="../../public/sql.svg"
-          ico2="../../public/tailwindcss.svg"
-          ico3="../../public/nextjs.svg"
+          ico1="sql.svg"
+          ico2="tailwindcss.svg"
+          ico3="nextjs.svg"
           web="https://connectink.vercel.app/"
           git="https://github.com/santicasalis/ConnectInk"
         />
@@ -26,9 +26,9 @@ export const Projects = () => {
           src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/NationNav.PNG"
           title="NationNav"
           info="An app created for current country information, known for its attractive design, advanced filters, customizable activities per country, and seamless and fun user experience. "
-          ico1="../../public/react.svg"
-          ico2="../../public/nodejs.svg"
-          ico3="../../public/redux.svg"
+          ico1="react.svg"
+          ico2="nodejs.svg"
+          ico3="redux.svg"
           git="https://github.com/FacuPadilla/PI_Countries"
         />
         <ProjectCard
@@ -36,9 +36,9 @@ export const Projects = () => {
           title="Quiz App"
           info="This application is a quiz on multiple topics divided by categories with questions related to general culture.
           "
-          ico1="../../public/react.svg"
-          ico2="../../public/javascript.svg"
-          ico3="../../public/tailwindcss.svg"
+          ico1="react.svg"
+          ico2="javascript.svg"
+          ico3="tailwindcss.svg"
           git="https://github.com/FacuPadilla/cuestionario"
           web="https://cuestionario-lemon.vercel.app/"
         />
@@ -47,9 +47,9 @@ export const Projects = () => {
           src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/dashb.png"
           title="Food Delivery Dashboard"
           info="100% responsive design for a possible food delivery app with a user-friendly design"
-          ico1="../../public/react.svg"
-          ico2="../../public/javascript.svg"
-          ico3="../../public/tailwindcss.svg"
+          ico1="react.svg"
+          ico2="javascript.svg"
+          ico3="tailwindcss.svg"
           web="https://dashboard-store-1-vert.vercel.app/"
           git="https://github.com/FacuPadilla/dashboard-store-1"
         />
