@@ -46,13 +46,13 @@ export const NavBar = () => {
           </svg> */}
           {openMenu ? (
             <img
-              src="../../public/close-circle-svgrepo-com (1).svg"
+              src="close-circle-svgrepo-com (1).svg"
               alt=""
               className="h-20 w-20 text-white"
             />
           ) : (
             <img
-              src="../../public/menu-svgrepo-com (1).svg"
+              src="menu-svgrepo-com (1).svg"
               alt=""
               className="h-20 w-20 text-white"
             ></img>
