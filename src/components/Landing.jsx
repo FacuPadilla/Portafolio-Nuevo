@@ -7,10 +7,27 @@ import { useState, useEffect } from "react";
 import { useSpring, animated } from "react-spring";
 import { IoIosMail } from "react-icons/io";
 
+import Typed from "typed.js";
+
 import { FaTwitter, FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 import { Contact } from "./Contact";
 
 export const Landing = () => {
+  const el = React.useRef(null);
+
+  React.useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["Facundo Jose Padilla"],
+      typeSpeed: 80,
+      showCursor: true,
+      startDelay: 1000,
+    });
+
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
   const [loaded, setLoaded] = useState(false);
 
   // Animación para el nombre
@@ -28,18 +45,21 @@ export const Landing = () => {
   }, []);
   return (
     <div
-      className="pt-28 px-10 grid items-center justify-center text-center"
+      className="pt-20 px-10 grid items-center justify-center text-center"
       id="landing"
     >
       <h1 className="text-slate-300 text-3xl font-bold tracking-widest leading-10">
         Hi, I am
       </h1>
-      <animated.p
+      <div className="my-4 text-sky-600 text-5xl">
+        <span ref={el} className="text-sky-600 font-robomono text-5xl  " />
+      </div>
+      {/* <animated.p
         style={nameAnimation}
         className="py-2 text-5xl font-robomono text-sky-600"
       >
         Facundo Jose Padilla
-      </animated.p>
+      </animated.p> */}
       <p className="text-4xl font-robomono text-slate-500">
         Fullstack Developer
       </p>
