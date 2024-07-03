@@ -23,7 +23,7 @@ export const NavBar = () => {
         <button
           data-collapse-toggle="navbar-solid-bg"
           type="button"
-          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm  rounded-lg md:hidden focus:outline-none focus:ring-2 hover:bg-gray-700 focus:ring-gray-600"
           aria-controls="navbar-solid-bg"
           aria-expanded="false"
           onClick={HandleMenu}
@@ -61,17 +61,26 @@ export const NavBar = () => {
         {openMenu && (
           <div className="text-white text-center w-full md:hidden">
             <ul className="">
-              <li className="mt-2" onClick={() => scrollToSection("about")}>
+              <li
+                className="mt-2 hover:text-sky-600 transition-all"
+                onClick={() => scrollToSection("about")}
+              >
                 About me
               </li>
-              <li className="mt-2" onClick={() => scrollToSection("skills")}>
+              <li
+                className="mt-2 hover:text-sky-600 transition-all"
+                onClick={() => scrollToSection("skills")}
+              >
                 Skills
               </li>
-              <li className="mt-2" onClick={() => scrollToSection("projects")}>
+              <li
+                className="mt-2 hover:text-sky-600 transition-all"
+                onClick={() => scrollToSection("projects")}
+              >
                 Projects
               </li>
               <li
-                className="mt-2 "
+                className="mt-2 hover:text-sky-600 transition-all"
                 onClick={() => scrollToSection("contactame")}
               >
                 Contact

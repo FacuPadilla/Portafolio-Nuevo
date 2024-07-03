@@ -31,9 +31,9 @@ export const Contact = () => {
         <div className="md:flex text-center justify-center mt-20 gap-10 space-y-10">
           <div className="md:w-[50%] grid md:grid-cols-2 gap-4 items-center justify-center">
             <div className="bg-slate-700 h-32 w-64 md:w-auto flex items-center justify-center relative rounded-lg border-[1px] opacity-85 hover:opacity-100 hover:scale-105 transition-all">
-              <a href="" className="flex items-center justify-center">
+              <div className="flex items-center justify-center">
                 <img src="github.svg" alt="" className="w-20 h-20" />
-              </a>
+              </div>
               <p className="absolute -bottom-1 -right-1 bg-white text-black rounded-lg p-1 text-sm">
                 GitHub
               </p>
@@ -65,9 +65,9 @@ export const Contact = () => {
               </a>
             </div>
             <div className="bg-slate-700 h-32 flex relative items-center justify-center rounded-lg border-[1px] opacity-85 hover:opacity-100 hover:scale-105 transition-all">
-              <a href="" className="flex items-center justify-center">
+              <div className="flex items-center justify-center">
                 <img src="gmail-svgrepo-com.svg" alt="" className="w-20 h-20" />
-              </a>
+              </div>
               <p className="absolute -bottom-1 -right-1 bg-white text-black rounded-lg p-1 text-sm">
                 Gmail
               </p>
@@ -97,13 +97,13 @@ export const Contact = () => {
               </CopyToClipboard>
             </div>
             <div className="bg-slate-700 relative h-32 flex items-center justify-center rounded-lg border-[1px] opacity-85 hover:opacity-100 hover:scale-105 transition-all">
-              <a href="" className="flex items-center justify-center">
+              <div className="flex items-center justify-center">
                 <img
                   src="linkedin-svgrepo-com.svg"
                   alt=""
                   className="w-20 h-20"
                 />
-              </a>
+              </div>
               <p className="absolute -bottom-1 -right-1 bg-white text-black rounded-lg p-1 text-sm">
                 Linkedin
               </p>
@@ -135,13 +135,13 @@ export const Contact = () => {
               </a>
             </div>
             <div className="bg-slate-700 relative h-32 flex items-center justify-center rounded-lg border-[1px] opacity-85 hover:opacity-100 hover:scale-105 transition-all">
-              <a href="" className="flex items-center justify-center">
+              <div className="flex items-center justify-center">
                 <img
                   src="phone-calling-svgrepo-com.svg"
                   alt=""
                   className="w-20 h-20"
                 />
-              </a>
+              </div>
               <p className="absolute -bottom-1 -right-1 bg-white text-black rounded-lg p-1 text-sm">
                 Phone
               </p>
