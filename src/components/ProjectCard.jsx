@@ -37,15 +37,23 @@ export const ProjectCard = ({
           </div>
         </div>
         <div className="w-full border-t-[1px] mt-2 flex items-center justify-center gap-4 p-2">
-          <a href={git}>
-            <img src="github.svg" alt="" className="w-10 h-10" />
+          <a
+            href={git}
+            className="flex bg-slate-600 items-center justify-center rounded-lg py-2 px-4 gap-2 text-white w-32 hover:bg-slate-700"
+          >
+            <img src="github.svg" alt="" className="w-6 h-6" />
+            <p>Code</p>
           </a>
-          <a href={web}>
+          <a
+            href={web}
+            className="flex bg-slate-600 items-center justify-center rounded-lg py-2 px-4 gap-2 text-white w-32  hover:bg-slate-700"
+          >
             <img
               src="new-window-svgrepo-com (1).svg"
               className="w-5 h-5"
               alt=""
             />
+            <p>Preview</p>
           </a>
         </div>
       </div>
