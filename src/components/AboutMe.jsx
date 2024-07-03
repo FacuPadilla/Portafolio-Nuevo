@@ -15,7 +15,7 @@ export const AboutMe = () => {
             <p className="text-center lg:text-xl font-robomono">
               My name is{" "}
               <span className="text-sky-600">Facundo Jose Padilla</span>, I am
-              20 years old and I am a{" "}
+              23 years old and I am a{" "}
               <span className="text-yellow-400">Full-Stack developer</span>. I
               have worked on a variety of projects and technologies, both
               backend and frontend.
